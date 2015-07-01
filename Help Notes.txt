@@ -1,0 +1,11 @@
+Database commands to drop/delete the tables
+Caution: (Use only if necessary)
+
+drop table sales;
+drop table product;
+drop table orders;
+drop table customer;
+drop table product_category;
+drop table province;
+drop table product_main_category;
+drop table region;
