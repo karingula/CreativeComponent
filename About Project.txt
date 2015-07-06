@@ -3,7 +3,7 @@
 PROJECT TITLE: The goal of this project is to create a Database and then Loading complex and large data sets into Database.
 
 Note: project could also be amplified on a large scale in the real world scenario which is helpful for
-      -> research work especially in the fields of agriculture, genetics, Bio-informatics, Finance etc.
+      -> dealing with data for research work especially in the fields of agriculture, genetics, Bio-informatics, Finance etc.
       -> Maintaining bulk amounts of real time generated data from aeroplanes during its journey of flight
       -> Data wrangling in production units, factories, rail/road systems, electricity power plants, etc.
       
