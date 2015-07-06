@@ -1,6 +1,8 @@
 
-PROJECT TITLE:  This project is all about Loading complex and large data sets into Database.
-Note: project could also be amplified on a large scale which is helpful for
+
+PROJECT TITLE: The goal of this project is to create a Database and then Loading complex and large data sets into Database.
+
+Note: project could also be amplified on a large scale in the real world scenario which is helpful for
       -> research work especially in the fields of agriculture, genetics, Bio-informatics, etc.
       -> Maintaining bulk amounts of real time generated data from aeroplanes during its journey of flight
       -> Data wrangling in production units, factories, rail/road systems, electricity power plants, etc.
@@ -8,14 +10,15 @@ Note: project could also be amplified on a large scale which is helpful for
 
 steps performed:-
 
-1. write code to extract the data sets into text files
+1. write code to extract the data sets into text files(convenient format)
 2. Design the schema for Database tables
 3. Write code to implement the database schema like creating tables, imposing constraints in those tables
-4. wite code to load data into created database tables
+4. wite code to load data from the text files into created database tables
 
 Data used in this project: For sample, the data sets of a Super-store-sales is used to demonstrate the project.
 
 Type of data used: The data set used for demonstration is pretty complex involving all data types, special characters,
                    European characters,etc.
+
 
 
