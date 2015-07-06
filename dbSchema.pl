@@ -1,5 +1,7 @@
 ############################################################################
 #Purpose:  This perl code creates all the necessary tables in the database
+#          along with imposing all necessary constraints on tables.
+
 #Author:   Vijay Shanker Karingula
 #Language: Perl
 #Database: PostgreSQL
@@ -13,9 +15,9 @@ my $driver = "Pg";
 my $database = "drupal";
 my $dsn="DBI:$driver:dbname=$database";
 
-my $userid='';
-my $password='';
-my $dbh=DBI->connect($dsn, $userid,$password, {RaiseError=>1, AutoCommit =>0})
+my $userid = '';
+my $password = '';
+my $dbh = DBI->connect($dsn, $userid,$password, {RaiseError=>1, AutoCommit =>0})
         or die "Error connecting to the database: $DBI::errstr\n";
 print "Opened database successfully.....\n";
 
@@ -48,7 +50,7 @@ sub createTables {
                 is_return BOOLEAN);
               );
 
-  my $rv=$dbh->do($stmt);
+  my $rv = $dbh->do($stmt);
   if($rv<0) {
     print DBI::errstr;
   }
@@ -60,7 +62,7 @@ sub createTables {
              province_id INTEGER);
             );
 
-  $rv=$dbh->do($stmt);
+  $rv = $dbh->do($stmt);
   if($rv<0) {
     print DBI::errstr;
   }
@@ -71,7 +73,7 @@ sub createTables {
              region_id INTEGER);
             );
  
-  $rv=$dbh->do($stmt);
+  $rv = $dbh->do($stmt);
   if($rv<0) {
     print DBI::errstr;
   }
@@ -81,7 +83,7 @@ sub createTables {
              region_name VARCHAR(100));
             );
 
-  $rv=$dbh->do($stmt);
+  $rv = $dbh->do($stmt);
   if($rv<0) {
     print DBI::errstr;
   }
