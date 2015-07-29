@@ -33,10 +33,10 @@
     Examples:
     
     Dumping all worksheets available in the Excel file
-      perl dumpData.pl excel-file-name.xlsx data/
+      perl dumpData.pl excel-file-name.xlsx <output-dir>/
     
     Dump worksheet 'worksheet1', rows 2 through 100, columns 4, 6, and 8
-      perl $0 -w worksheet1 -r 2-100 -c 4,6,8 excel-file-name.xlsx data/
+      perl $0 -w worksheet1 -r 2-100 -c 4,6,8 excel-file-name.xlsx <output-dir>/
     
           
 EOS
