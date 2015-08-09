@@ -18,7 +18,7 @@ use Orderutils;
 
 
 my $driver = "Pg";
-my $database = "drupal";
+my $database = "super_store";
 my $dsn = "DBI:$driver:dbname=$database";
 
 my $userid='';
