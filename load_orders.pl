@@ -46,7 +46,7 @@ my %return;
 
   # Use a transaction so that it can be rolled back if there are any errors
   eval {
-    #loadOrdersData($dbh);  
+    loadOrdersData($dbh);  
     loadReturnsData($dbh);
     
     $dbh->commit;   # commit the changes if we get this far
