@@ -2,9 +2,6 @@
 use warnings;
 use strict;
 
-#print "Content-Type: text/html\n\n";
-
-
 use HashDB;
 use BerkeleyDB;
 my $dir = '/Users/vk2/Sites/uploads/';
