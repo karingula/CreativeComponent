@@ -44,7 +44,7 @@ sub hook {
         close (SES);
 }
 
-# Now the meat of the CGI script.
+# Header defined in HTTP and will make use of MIME.
 print "Content-Type: text/html\n\n";
 
 my $dir = "/Users/vk2/Sites/uploads";
