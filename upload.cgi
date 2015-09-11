@@ -10,12 +10,11 @@ use CGI;
 use CGI::Carp "fatalsToBrowser";
 use HashDB;
 
-# Make a file upload hook.
 my $q = new CGI (\&hook);
 
 
- #This is the file upload hook, where we can update our session
- #file with the dirty details of how the upload is going.
+ #In this file upload hook we can update our session
+ #file with the details toshow the upload progress
 sub hook {
         my ($filename,$buffer,$bytes_read,$file) = @_;
 
