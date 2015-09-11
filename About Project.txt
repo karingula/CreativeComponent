@@ -7,13 +7,17 @@ Note: project could also be amplified on a large scale in the real world scenari
       -> Maintaining bulk amounts of real time generated data from aeroplanes during its journey of flight
       -> Data wrangling in production units, factories, rail/road systems, electricity power plants, etc.
       
+Source of Data:- 
 
-steps performed:-
+In this project for demo the data is taken from the Excel sheets maintained by Super-store. 
+In general perspective, the initial data source can be any real-time unstructured data(eg: Publications, Journals, Citations,flight logs, manufacturing data...etc)
+
+Steps performed:-
 
 1. write code to extract the data sets into text files(convenient format)
 2. Design the schema for Database tables
 3. Write code to implement the database schema like creating tables, imposing constraints in those tables
-4. wite code to load data from the text files into created database tables
+4. write code to load data from the text files into created database tables
 
 Data used in this project: For sample, the data sets of a Super-store-sales is used to demonstrate the project.
 
