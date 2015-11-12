@@ -22,13 +22,6 @@ sub hook {
         my ($sessid) = $ENV{QUERY_STRING};
         $sessid =~ s/[^A-F0-9]//g;
 
-         #Calculate the (rough estimation) of the file size. This isn't
-         #accurate because the CONTENT_LENGTH includes not only the file's
-         #contents, but also the length of all the other form fields as well,
-         #so it's bound to be at least a few bytes larger than the file size.
-         #This obviously doesn't work out well if you want progress bars on
-         #a per-file basis, if uploading many files. This proof-of-concept only
-         #supports a single file anyway.
         my $length = $ENV{'CONTENT_LENGTH'};
         my $percent = 0;
         if ($length > 0) { # Don't divide by zero.
