@@ -1,3 +1,10 @@
+###################################################################
+## This is a pipeline code that executes all perl files for #####
+## cleaning, validation steps                               #####
+## Author: Vijay Karingula                                  #####
+## Code: CGI supporting bash script                         #####
+###################################################################
+
 #!/bin/bash
 
 echo "Content-Type: text/html\n\n"
