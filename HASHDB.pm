@@ -2,7 +2,7 @@
 
 ## Purpose: This file contains subroutines to create and delete Berkeley DB file
 ## Berkeley DB is used to store the temporary data structures as key-value pairs
-## In this Project Berkeley DB is used to fetch the file name of Excel sheet
+## This particular package is used in other files of the project
 
 ## Author: Vijay Shanker Karingula
 ## Language: Perl
