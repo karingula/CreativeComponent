@@ -1,3 +1,10 @@
+############################################################################
+# This code uses the BerkeleyDB module to fetch the input filename and 
+# store it into hashtable as key-value pair
+# Author: Vijay Karingula
+# Languge: Perl
+############################################################################
+
 #!/usr/bin/perl -w
 use warnings;
 use strict;
